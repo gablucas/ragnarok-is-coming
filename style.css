@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Berserker";
+    src: url('Berserker-Regular.otf');
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    background: url('./gowragnarok.jpg') no-repeat;
+    background-size: 1920px 1080px;
+    color: white;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    gap: 60px;
+}
+
+span {
+    font: 600 5rem/1 "Berserker";
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+}
+
+
+.days::before,
+.hours::before,
+.minutes::before,
+.seconds::before {
+    font: 600 2rem/1 "Berserker";
+}
+
+.days::before {
+    content: "Dias";
+}
+
+.hours::before {
+    content: "Horas";
+}
+
+.minutes::before {
+    content: "Minutos";
+}
+
+.seconds::before {
+    content: "Segundos";
+}
