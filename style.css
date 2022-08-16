@@ -3,22 +3,28 @@
     src: url('Berserker-Regular.otf');
 }
 
+
 body {
-    width: 1920px;
-    height: 1080px;
+    margin: 0;
     display: grid;
     justify-content: center;
     align-content: start;
-    background: url('./gowragnarok.jpg') no-repeat;
-    background-size: 1920px 1080px;
     color: white;
+
+    background-image: url('gowragnarok.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    overflow: hidden;
 }
 
 div {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 100px;
     gap: 60px;
+    padding-top: 100px;
 }
 
 span {
