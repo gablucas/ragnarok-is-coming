@@ -18,6 +18,8 @@ body {
     background-size: cover;
 
     overflow: hidden;
+
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 div {
@@ -60,12 +62,10 @@ span {
 
 @media (max-width: 425px) {
 
-    div {
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    }
 
     div {
         grid-template-columns: auto;
         gap: 60px;
+        padding-top: 40px;
     } 
 }
