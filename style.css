@@ -63,11 +63,14 @@ span {
 
 @media (max-width: 425px) {
 
-
     div {
         grid-template-columns: auto;
-        gap: 60px;
+        gap: 10px;
         padding-top: 40px;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     } 
+
+    span {
+        gap: 0px;
+    }
 }
